@@ -1,3 +1,4 @@
+// 蛇的格子大小
 const SNAKE_RECT_SIZE = 20;
 const Directions = {
   LEFT: 1,
@@ -152,7 +153,7 @@ class Snake {
         this.drawButton({ ...this.button });
         this.gameOver();
       }
-    }, 130);
+    }, 100);
   }
 
   gameOver() {
